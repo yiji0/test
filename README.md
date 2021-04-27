@@ -8,6 +8,6 @@ This is a test for the project.
       {{ member.user }} - {{ member.name }}
     </a>
   </h2>
-  <p>![image]({{ member.image }})</p>
+  ![image]({{ member.image }})
   <p>{{ member.content | markdownify }}</p>
 {% endfor %}
